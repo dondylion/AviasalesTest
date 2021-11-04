@@ -1,0 +1,146 @@
+@font-face {
+	font-family: 'OpenSans'; 
+	src: url(/fonts/OpenSans-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'OpenSans bold'; 
+	src: url(/fonts/OpenSans-Bold.ttf); 
+}
+
+body {
+    font-family: 'OpenSans';
+    font-size: 12px;
+    font-weight: 550;
+    background-color: #F3F7FA;
+    margin: 0;
+}
+
+.logo {
+    width: 7em;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    width: 750px;
+    padding: 0;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 200px;
+    padding: 1em;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filters p {
+    line-height: 20px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filters p input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.tickets {
+    width: 500px;
+}
+
+.toggles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 5px;
+    height: 4em;
+    margin-bottom: 20px;
+}
+
+.toggles div {
+    height: 3em;
+    padding-top: 1.5em;
+    background-color: #FFFFFF;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.toggles div.selected {
+    background-color: #2196F3;
+    color: white;
+}
+
+.more-tickets {
+    width: 100%;
+    height: 3em;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.ticket {
+    width: 100%;
+    height: 180px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ticket-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+}
+
+.price {
+    font-size: 24px;
+    color: #2196F3;
+}
+
+.segment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 70px 20px 20px;
+    font-size: 12px; 
+}
+
+.segment p {
+    margin: 0;
+}
+
+.segment div p:nth-child(1) {
+    color: #A0B0B9;
+}
+
+.segment div p:nth-child(2) {
+    color: #4A4A4A;
+}

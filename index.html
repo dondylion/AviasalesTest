@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta id="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>Aviasales Test Task</title>
+    </head>
+        <body>
+            <header>
+                <img class="logo" src="./images/logo.png">
+            </header>
+            <div class="container">
+                <div class="filters">
+                    <p>КОЛИЧЕСТВО ПЕРЕСАДОК</p>
+                    <p><input type="checkbox" id="all" value="Все" checked><label for="all">
+                        Все
+                    </label></p>
+                    <p><input type="checkbox" id="no-transfer" value="Без пересадок" checked><label for="no-transfer">
+                        Без пересадок
+                    </label></p>
+                    <p><input type="checkbox" id="one-transfer" value="1 пересадка" checked><label for="one-transfer">
+                        1 пересадка
+                    </label></p>
+                    <p><input type="checkbox" id="two-transfer" value="2 пересадки" checked><label for="two-transfer">
+                        2 пересадки
+                    </label></p>
+                    <p><input type="checkbox" id="three-transfer" value="3 пересадки" checked><label for="three-transfer">
+                        3 пересадки
+                    </label></p>
+                </div>
+                <div class="tickets">
+                    <div class="toggles">
+                        <div class="cheap selected">САМЫЙ ДЕШЁВЫЙ</div>
+                        <div class="fast">САМЫЙ БЫСТРЫЙ</div>
+                    </div>
+                    <div class="ticket-container">
+                    </div>
+                    <button class="more-tickets">Показать ещё 5 билетов!</button>
+                </div>
+            </div>
+            <script src="main.js"></script>
+        </body>
+</html>
